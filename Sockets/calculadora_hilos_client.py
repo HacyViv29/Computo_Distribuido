@@ -2,7 +2,8 @@ import socket
 
 # Configuración del cliente
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-host = socket.gethostname()
+#host = socket.gethostname()
+host = "192.168.100.88" 
 port = 9999
 
 # Conectar al servidor
